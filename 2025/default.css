@@ -1,0 +1,269 @@
+/*
+Template name: Transparentia
+Template URI: https://vikpe.org/archive/arcsin-web-templates/transparentia-website-template/
+Release date: 2006-08-20
+Description: Simple, lightweight and slightly blue.
+Author: Viktor Persson
+Author URI: https://vikpe.org/
+*/
+
+/* standard elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #36C;
+}
+a:hover {
+	color: #06F;
+}
+body {
+	background-color: whitesmoke;
+	/* color: #444; */
+	font: normal 62.5% "Lucida Sans Unicode",sans-serif;
+	margin: 0;
+}
+input {
+	color: #555;
+	font: normal 1.1em "Lucida Sans Unicode",sans-serif;
+}
+p,cite,code,ul {
+	font-size: 1.2em;
+	padding-bottom: 1.2em;
+}
+h1 {
+	font-size: 1.4em;
+	margin-bottom: 4px;
+}
+h1,h2,h3 {
+	color: #367EA6;
+	padding-top: 6px;
+}
+
+h2 {
+	font-size: 1.4em;
+}
+
+/* misc */
+.clearer {
+	clear: both;
+}
+
+/* structure */
+.container {
+	background-color: white;
+	margin: 0 auto;
+	padding-bottom: 6px;
+	width: 767px;
+	border-bottom: 1px solid #DDD;
+	box-shadow:#000;
+}
+.header {
+	background: url(img/leuven.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 300px; 
+    max-width: 100%;
+}
+
+.header img {
+    width: 100%; /* Keeps it within the container */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover; /* Ensures it fills the space */
+}
+
+/* title */
+.title h1 {
+	/* color: #FFF; */
+	color:#000;
+	font: normal 3em Calibri,sans-serif;
+	margin-top: 8px;
+	margin-left: 8px;
+	text-align: left;
+}
+
+/* title */
+.title h2 {
+	color: #000;
+	font: bold 1.8em Calibri,sans-serif;
+	margin-top: -10px;
+	margin-left: 8px;
+	text-align: left;
+}
+
+/* navigation */
+.navigation {
+	margin-bottom: 4px;
+}
+.navigation a {
+	background-color: #4A91C3;
+	color: #FFF;
+	float: left;
+	font: bold 1.2em "Trebuchet MS",sans-serif;
+	padding: 8px 0;
+	width: 19%;
+	border-right: 1px solid #FFF;
+	text-align: center;
+	text-decoration: none;
+}
+.navigation a:hover {
+	background-color: #000;
+	color: #FFF;
+}
+
+/* main */
+.main {
+	clear: both;
+	padding: 8px 18px;
+}
+
+/* main left */
+.sidenav h1,.sidenav ul {
+	padding-left: 12px;
+}
+.sidenav {
+	background: #EEE;
+	border: 1px solid #E5E5E5;
+	float: left;
+	width: 200px;
+}
+.sidenav h1 {
+	color: #666;
+	font-size: 1.2em;
+	height: 20px;
+	margin-top: 1.2em;
+}
+.sidenav ul {
+	border-top: 1px solid #FAFAFA;
+	background: #EEE url(img/bgul.gif) repeat-x;
+	margin: 0;
+	padding: 0;
+
+}
+.sidenav li {
+	border: 1px solid #FAFAFA;
+	border-top: none;
+	list-style: none;
+	margin: 0;
+	font-size: 1em;
+}
+.sidenav li a {
+	color: #777;
+	display: block;
+	font-size: 0.9em;
+	padding: 3px 6px 3px 14px;
+	text-decoration: none;
+}
+.sidenav li a:hover {
+	color: #111;
+}
+
+/* content */
+.content {
+	float: right;
+	width: 520px;
+}
+.content .item {
+	padding: 6px 12px;
+	border: 1px solid #EEE;
+	background: #FFF;
+	margin-bottom: 8px;
+}
+.content .descr {
+	color: #333;
+	margin-bottom: 6px;
+}
+.content li {
+	list-style: url(img/li.gif);
+	margin-left: 18px;
+}
+
+/* search form */
+form {
+	padding: 0 0 6px 8px;
+}
+.styled {
+	border: 1px solid #DDD;
+	padding: 4px;
+}
+
+
+/* footer */
+.footer {
+	background: #FFF;
+	border: 1px solid #EEE;
+	color: #666;
+	font-size: 1.1em;
+	margin: 0 auto;
+	text-align: center;
+	width: 720px;
+}
+.footer a {
+	color: #36C;
+	text-decoration: none;
+}
+.footer a:hover {
+	color: #06F;
+	text-decoration: underline;
+}
+.footer .left, .footer .right {padding: 6px 12px;}
+.footer .right, .footer .right a {color: #AAA;}
+.footer .right a:hover {color: #666;}
+
+/* floats */
+.left {float: left;}
+.right {float: right;}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+	font-size: 1.2em;
+}
+
+tbody tr td {
+	vertical-align: top;
+}
+
+.history {
+    background: #EEE;
+    border: 1px solid #E5E5E5;
+    padding: 10px;
+    margin-top: 10px;
+    width: 200px; /* Same width as sidenav */
+    float: left;  /* Aligns with sidenav */
+}
+
+.history h1 {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 6px;
+}
+
+.history ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.history li {
+    font-size: 0.9em;
+    padding: 3px 0;
+}
+
+.history li a {
+    color: #777;
+    text-decoration: none;
+}
+
+.history li a:hover {
+    color: #111;
+}
