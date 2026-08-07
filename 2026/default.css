@@ -267,3 +267,61 @@ tbody tr td {
 .history li a:hover {
     color: #111;
 }
+
+/* agenda table */
+.agenda {
+	width: 100%;
+	border-collapse: collapse;
+}
+.agenda td {
+	font-size: 1.15em;
+	padding: 7px 10px;
+	border-bottom: 1px solid #EEE;
+	vertical-align: middle;
+}
+.agenda tr:last-child td {
+	border-bottom: none;
+}
+.agenda tr.session-row td {
+	background-color: #367EA6;
+	color: #FFF;
+	font-weight: bold;
+	border-bottom: none;
+}
+.agenda td.time {
+	width: 28%;
+	color: #367EA6;
+	font-weight: bold;
+	white-space: nowrap;
+}
+.agenda tr.session-row td.time {
+	color: #FFF;
+}
+.agenda tr.break-row td {
+	background-color: #F7F7F7;
+	color: #999;
+	font-style: italic;
+}
+.agenda tr.break-row td.time {
+	color: #999;
+	font-weight: normal;
+}
+
+/* paper list */
+.papers .paper {
+	padding: 8px 0;
+	border-bottom: 1px solid #EEE;
+}
+.papers .paper:last-child {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+.papers .paper .title {
+	font-size: 1.15em;
+	color: #333;
+	margin-bottom: 2px;
+}
+.papers .paper .authors {
+	font-size: 1em;
+	color: #777;
+}
