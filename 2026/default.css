@@ -274,7 +274,7 @@ tbody tr td {
 	border-collapse: collapse;
 }
 .agenda td {
-	font-size: 1.15em;
+	font-size: 1em;
 	padding: 7px 10px;
 	border-bottom: 1px solid #EEE;
 	vertical-align: middle;
@@ -305,6 +305,13 @@ tbody tr td {
 .agenda tr.break-row td.time {
 	color: #999;
 	font-weight: normal;
+}
+.agenda .paper-title {
+	font-weight: bold;
+}
+.agenda .paper-authors {
+	font-size: 0.8em;
+	color: #777;
 }
 
 /* paper list */
